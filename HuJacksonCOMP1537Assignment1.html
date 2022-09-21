@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jackson's Personal Site</title>
+      </head>
+      <body>
+
+        <header>
+          <table>
+            <tr>
+              <td><img src="image/JacksonHu.jpeg" alt="Jackson Hu profile picture" height="350" width="225"></td>
+              <td>
+                <h1>Jackson Hu</h1>
+                <p><em>A <strong>CST</strong> student from <a href ="https://www.bcit.ca">
+                  <span class = "school name">BCIT</span></a>.</em></p>
+                <p>I am currently enrolled in <b><span class = "school name">BCIT</span></b> as a <abbr>CST</abbr> student, which is a program that 
+                  learning some <small>foundation</small> of programming stuff.<br>I wish i can do well in this program and follow along the classes.<br>
+                  I am also interested in the <i class = "latin">CO-OP</i> section this term, I hope i can make myself get into it. <br></p>
+              </td>
+            </tr>
+          </table>
+          <h3><b>Contact Me</b></h3>
+            <table>
+              <tr>
+                <td><b>Email: </b><span class = "contact info">hjacksonhjh@gmail.com</span></td>
+              </tr>
+              <tr>
+                <td><b>Address: </b><span class = "contact info">3700 Willingdon Ave, Burnaby, B.C.</span></td>
+              </tr>
+              <tr>
+                <td><b>Phone number: </b> <span class = "contact info">(778)-302-7868</span></td>
+              </tr>
+            </table>
+        </header>
+
+        <hr>
+        <main>
+          <h1>About Myself</h1>
+          <section>
+            <h2>Education</h2>
+            <ul>
+              <li>Gladstone Secondary School 2017-2020</li>
+              <li>Univeristy of British Columbia 2020-2021</li>
+              <li>British Columbia Institution of Technology 2021- on going</li>
+            </ul>
+            <h2>Work Experience</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Dates</th>
+                  <th>Work</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2019-2020</td>
+                  <td>Voluntering as a high school student in a cedar cottage</td>
+                </tr>
+                <tr>
+                  <td>2020-2021</td>
+                  <td>Working in a bubble tea factory as a production worker</td>
+                </tr>
+              </tbody>
+            </table>
+            <h2>Skills</h2>
+            <dl>
+              <dt>Programming Language I use</dt>
+              <dd>HTML, CSS, and JavaScript</dd>
+              <dt>Language I speak</dt>
+              <dd>English, Chineses(Mandarin and Cantoneses)</dd>
+              <dt>Sports I play</dt>
+              <dd>Basketball, Badminton, Swimming</dd>
+            </dl>
+            <aside>
+              <h3>(Something good to know about) :</h3>
+              <p><b>There are many differences between the Madanrin and Cantonese</b><br></p>
+              <ol>
+                <li>The pronounce of them is different.</li>
+                <li>They use in different area of China, some people can speak some are not.</li>
+                <li>They are completely two diffenrent languages, 
+                  and they are both recognized as a official language in China.</li>
+              </ol>
+            </aside>
+            <h2>Hobbies</h2>
+            <nav class = "hobbies">
+              <ol>
+                <li class = "hobby">Play <a href="https://www.leagueoflegends.com/en-us/"> League of Legends</a></li>
+                <li class = "hobby">Watch <a href="https://www.nba.com/schedule"> basketball games</a></li>
+                <li class = "hobby"><a href = "https://www.worldtrips.com/travel-tips-and-tricks#/start">Travelling</a></li>
+                <li class = "hobby">Swimming</li>
+            </ol></nav>
+            <article>
+              <h3><b>What is good for me when i swim?</b></h3>
+              <aside>
+                <p>It burns calories and helps with weight loss, and builds muscle strength.</p>
+                <p>It increases lung capacity and Lowers blood pressure & reduces the risk of disease.</p>
+              </aside>
+              <p>It reduces stress & improves mental health, also improves sleep patterns.</p>
+            </article>
+          </section>
+          <hr>
+          <section>
+            <h2>Course List</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Course Name</th>
+                  <th>Course Number</th>
+                  <th>Course Credits</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Web development 1 </td>
+                  <td>COMP1537</td>
+                  <td>4 (four)</td>
+                </tr>
+                <tr>
+                  <td>Applied mathematics</td>
+                  <td>COMP 1113</td>
+                  <td>4 (four)</td>
+                </tr>
+                <tr>
+                  <td>Programming methods</td>
+                  <td>COMP 1510</td>
+                  <td>7 (seven)</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+
+        <hr>
+        <footer>
+          <form action="/submit" method="post">
+            <fieldset>
+              <legend>User Profile</legend>
+              <input type="text" id="name" name="login name" value="" required="required"
+                placeholder="Login Name" pattern="[A-Za-z]{8,20}"/>
+                <br/><br/>
+              <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{10,20}"
+                placeholder="Enter password" required="required"/>
+                <br/><br/>
+              <input min="18" max="65" type="number" id="number" name="number" step="1" placeholder="Age"/>
+              <br/><br/>
+              <input id="submit" name="submit" value="Submit" type="submit"/>
+              <input id="reset" name="reset" value="Reset" type="reset"/>
+          </fieldset>
+          </form>
+          <figure>
+            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=288&h=288&transparent=true"
+                 alt="A NBA Poster">
+            <figcaption>A NBA Poster</figcaption>
+        </figure>
+
+       </footer>
+
+
+
+      </body>
+
+</html>
